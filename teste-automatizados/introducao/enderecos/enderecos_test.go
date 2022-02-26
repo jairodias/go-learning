@@ -10,8 +10,8 @@ type cenarioDeTeste struct {
 func TestTipoDeEndereco(t *testing.T) {
 	cenariosDeTeste := []cenarioDeTeste{
 		{"Rua ABC", "Rua"},
-		{"Avenida Paulista", "Avenida"},
-		{"Praça das Rosas", "Tipo inválido"},
+		{"Avenida Paulista", "Rua"},
+		{"Praça das Rosas", "Tipo invàlido"},
 		{"Rodovia dos Imigrantes", "Rodovia"},
 		{"ESTRADA QUALQUER", "Estrada"},
 		{"", "Tipo inválido"},
